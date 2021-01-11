@@ -1,266 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IceCream</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <!-- ================ HEADER ================ -->
-    <header>
-      <nav>
-        <a href="#"> <img src="./img/logo.svg" alt="лого" width="199" /> </a>
-        <ul>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>About us</li>
-          <li><a href="#"></a>How it’s made?</li>
-          <li><a href="#"></a>Our products</li>
-          <li><a href="#"></a>Contact</li>
-        </ul>
-        <button type="button">
-          buy now <img src="./img/arrow-btn.svg" alt="стрелка" width="4,43" />
-        </button>
-      </nav>
-      <h1>ice cream made with passion</h1>
-      <ul>
-        <li>
-          <a href="#">Products</a>
-          <!-- <button type="button">Products</button> -->
-        </li>
-        <li><a href="#">How it’s made?</a></li>
-      </ul>
-      <img src="./img/ice-cream-main.png" width="236" alt="рожек мороженного" />
-      <p>16 cafes</p>
-      <p>23 food trucks</p>
-      <img src="./img/jug_of_milk.png" width="188" alt="кувшин молока" />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et
-      </p>
-      <a href="#">
-        <img src="./img/arrow-right.svg" alt="стрелка" width="40"
-      /></a>
-      <img src="./img/ice-girl.png" width="293" alt="девушка с мороженным" />
-    </header>
-    <!-- ================ /HEADER ================ -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>IceCream</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<!-- ================ HEADER ================ -->
+		<header>
+			<nav class="menu">
+				<a href="#"><img src="./img/logo.svg" alt="лого" width="199" /></a>
+				<ul class="nav">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">About us</a>
+					</li>
+					<li>
+						<a href="#">How it’s made?</a>
+					</li>
+					<li>
+						<a href="#">Our products</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+				<button type="button" class="btn">
+					buy now
+					<!-- <img src="./img/arrow-btn.svg" alt="стрелка" width="4,43" /> -->
+				</button>
+			</nav>
+			<h1>
+				ice cream made with
+				<span class="accent">passion</span>
+			</h1>
+			<ul class="header-btn">
+				<li>
+					<a href="#" class="btn-red">Products</a>
+					<!-- <button type="button">Products</button> -->
+				</li>
+				<li><a href="#" class="btn-white">How it’s made?</a></li>
+			</ul>
+			<img src="./img/ice-cream-main.png" width="236" alt="рожек мороженного" />
+			<p class="amount-places">
+				<span class="number">16</span>
+				cafes
+			</p>
+			<p class="amount-places">
+				<span class="number">23</span>
+				food trucks
+			</p>
+			<img src="./img/jug_of_milk.png" width="188" alt="кувшин молока" />
+			<p class="text">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+			</p>
+			<a href="#">
+				<img src="./img/arrow-right.svg" alt="стрелка" width="40" />
+			</a>
+			<img src="./img/ice-girl.png" width="293" alt="девушка с мороженным" />
+		</header>
+		<!-- ================ /HEADER ================ -->
 
-    <!-- ================ PRODUCTS ================ -->
-    <section>
-      <h2>products</h2>
-      <p>100% natural</p>
-      <ul>
-        <li>
-          <img src="./img/ice-cream.png" alt="рожек мороженного" width="335" />
-          <h3>ice cream</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
-          </p>
-          <a href="#">
-            <img src="./img/arrow-right.svg" alt="стрелка" width="40"
-          /></a>
-        </li>
-        <li>
-          <img src="./img/ice-coffee.png" alt="айс кофе" width="335" />
-          <h3>ice coffee</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
-          </p>
-          <a href="#">
-            <img src="./img/arrow-right.svg" alt="стрелка" width="40"
-          /></a>
-        </li>
-        <li>
-          <img src="./img/milkshakes.png" alt="милкшейк" width="335" />
-          <h3>milkshakes</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et
-          </p>
-          <a href="#">
-            <img src="./img/arrow-right.svg" alt="стрелка" width="40"
-          /></a>
-        </li>
-      </ul>
-    </section>
-    <!-- ================ /PRODUCTS ================ -->
+		<!-- ================ PRODUCTS ================ -->
+		<section class="products">
+			<p class="title">100% natural</p>
+			<h2>products</h2>
 
-    <!-- ================ HOW IT'S MADE ================ -->
-    <section>
-      <h2>how it’s made?</h2>
-      <p>tradition and love</p>
-      <img src="./img/cow.png" alt="корова и кувшин молока" width="516" />
-      <p>
-        Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo
-        cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at
-        justo fringilla.
-      </p>
-      <p>
-        Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum.
-        Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl
-        suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh,
-        tincidunt. Aliquam erat volutpat. Aenean accumsan.
-      </p>
-      <button type="button">
-        Read more <img src="./img/arrow-btn.svg" alt="стрелка" width="4,43" />
-      </button>
-      <ul>
-        <li>
-          <img src="./img/icon-milk.svg" width="33" alt="ведро молока" />
-          <span>721</span>
-          <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-        </li>
-        <li>
-          <img src="./img/icon-apples.svg" alt="ведро яблок" width="50" />
-          <span>16kg</span>
-          <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-        </li>
-        <li>
-          <img src="./img/icon-heart.svg" alt="сердце" width="44" />
-          <span>84</span>
-          <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-        </li>
-      </ul>
-    </section>
-    <!-- ================ /HOW IT'S MADE ================ -->
+			<ul class="products-card">
+				<li>
+					<img src="./img/ice-cream.png" alt="рожек мороженного" width="335" />
+					<h3>ice cream</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+					<a href="#">
+						<img src="./img/arrow-right.svg" alt="стрелка" width="40" />
+					</a>
+				</li>
+				<li>
+					<img src="./img/ice-coffee.png" alt="айс кофе" width="335" />
+					<h3>ice coffee</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+					<a href="#">
+						<img src="./img/arrow-right.svg" alt="стрелка" width="40" />
+					</a>
+				</li>
+				<li>
+					<img src="./img/milkshakes.png" alt="милкшейк" width="335" />
+					<h3>milkshakes</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+					<a href="#">
+						<img src="./img/arrow-right.svg" alt="стрелка" width="40" />
+					</a>
+				</li>
+			</ul>
+		</section>
+		<!-- ================ /PRODUCTS ================ -->
 
-    <!-- ================ GALLERY & REVIEWS ================ -->
-    <section>
-      <h2>gallery & reviews</h2>
-      <img src="./img/collage.png" alt="коллаж из фото" width="1280" />
-      <img src="./img/pic-rew1.png" alt="фото клиента" width="85" />
-      <p>
-        Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam
-        sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis
-        in nibh vel risus.
-      </p>
-      <p>Emily, Los Angeles</p>
-    </section>
-    <!-- ================ /GALLERY & REVIEWS ================ -->
+		<!-- ================ HOW IT'S MADE ================ -->
+		<section class="making">
+			<p class="title">tradition and love</p>
+			<h2>how it’s made?</h2>
 
-    <!-- ================ INFO ================ -->
-    <section>
-      <h2>info</h2>
-      <ul>
-        <li>
-          <h3>CAFE</h3>
-          <ul>
-            <li>
-              <h4>Chicago</h4>
-              <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-            </li>
-            <li>
-              <p>Monday - Friday<span>06:00 AM - 10:00 PM</span></p>
-              <p>Saturday - Sunday<span>08:00 AM - 16:00 PM</span></p>
-            </li>
-            <li>
-              <ul>
-                <li>
-                  <a href="tel:+61(0) 383 766 284 ">+61(0) 383 766 284 </a>
-                </li>
-                <li>
-                  <a href="mailto:noreply@envato.com">noreply@envato.com</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h3>FOOD TRUCK</h3>
-          <ul>
-            <li>
-              <h4>Los Angeles</h4>
-              <p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
-            </li>
-            <li>
-              <p>Monday - Friday<span>06:00 AM - 10:00 PM</span></p>
-              <p>Saturday - Sunday<span>08:00 AM - 16:00 PM</span></p>
-            </li>
-            <li>
-              <ul>
-                <li>
-                  <a href="tel:+61(0) 383 766 284 ">+61(0) 383 766 284 </a>
-                </li>
-                <li>
-                  <a href="mailto:noreply@envato.com">noreply@envato.com</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h3>CAFE</h3>
-          <ul>
-            <li>
-              <h4>New York</h4>
-              <p></p>
-            </li>
-            <li>
-              <p>Monday - Friday<span>06:00 AM - 10:00 PM</span></p>
-              <p>Saturday - Sunday<span>08:00 AM - 16:00 PM</span></p>
-            </li>
-            <li>
-              <ul>
-                <li>
-                  <a href="tel:+61(0) 383 766 284 ">+61(0) 383 766 284 </a>
-                </li>
-                <li>
-                  <a href="mailto:noreply@envato.com">noreply@envato.com</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <button type="button">
-            Our Locations
-            <img src="./img/arrow-btn.svg" alt="стрелка" width="4,43" />
-          </button>
-        </li>
-        <li>
-          <button type="button">
-            Franchise
-            <img src="./img/arrow-btn.svg" alt="стрелка" width="4,43" />
-          </button>
-        </li>
-      </ul>
-    </section>
-    <!-- ================ /INFO  ================ -->
+			<img src="./img/cow.png" alt="корова и кувшин молока" width="516" />
+			<p class="making-sub-title">
+				Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas
+				eros. Maecenas eleifend erat at justo fringilla.
+			</p>
+			<p class="making-recept">
+				Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet
+				placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.
+				Aliquam erat volutpat. Aenean accumsan.
+			</p>
+			<button type="button" class="btn">
+				Read more
+				<!-- <img src="./img/arrow-btn.svg" alt="стрелка" width="4,43" /> -->
+			</button>
+			<ul class="statistics">
+				<li>
+					<img src="./img/icon-milk.svg" width="33" alt="ведро молока" />
+					<span>721</span>
+					<p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+				</li>
+				<li>
+					<img src="./img/icon-apples.svg" alt="ведро яблок" width="50" />
+					<span>16kg</span>
+					<p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+				</li>
+				<li>
+					<img src="./img/icon-heart.svg" alt="сердце" width="44" />
+					<span>84</span>
+					<p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+				</li>
+			</ul>
+		</section>
+		<!-- ================ /HOW IT'S MADE ================ -->
 
-    <!-- ================ FOOTER ================ -->
-    <footer>
-      <h2>homemade ice cream made <span>with passion</span></h2>
-      <ul>
-        <li>
-          <a href="#">
-            <img src="./img/icon-git.svg" alt="Git" width="34" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./img/icon-telegram.svg" alt="Telegram" width="34" />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img src="./img/icon-fb.svg" alt="Facebook" width="34" />
-          </a>
-        </li>
-      </ul>
-      <p>
-        Feel free to contact
-        <a href="tel:+61 (0) 383 766 284">+61 (0) 383 766 284</a>
-      </p>
-      <p><span>&copy;</span> 2019 - IceCream. All Rights Reserved.</p>
-    </footer>
-    <!-- ================ /FOOTER  ================ -->
-  </body>
+		<!-- ================ GALLERY & REVIEWS ================ -->
+		<section class="gallery">
+			<h2>gallery & reviews</h2>
+			<img src="./img/collage.png" alt="коллаж из фото" width="1280" />
+			<img src="./img/pic-rew1.png" alt="фото клиента" width="85" />
+			<p class="reviews">
+				Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc,
+				accumsan congue. Lorem ipsum primis in nibh vel risus.
+			</p>
+			<p class="signature">Emily, Los Angeles</p>
+		</section>
+		<!-- ================ /GALLERY & REVIEWS ================ -->
+
+		<!-- ================ INFO ================ -->
+		<section>
+			<h2>info</h2>
+			<ul>
+				<li>
+					<h3>CAFE</h3>
+					<ul>
+						<li>
+							<h4>Chicago</h4>
+							<p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+						</li>
+						<li>
+							<p>
+								Monday - Friday
+								<span>06:00 AM - 10:00 PM</span>
+							</p>
+							<p>
+								Saturday - Sunday
+								<span>08:00 AM - 16:00 PM</span>
+							</p>
+						</li>
+						<li>
+							<ul>
+								<li>
+									<a href="tel:+61(0) 383 766 284 ">+61(0) 383 766 284</a>
+								</li>
+								<li>
+									<a href="mailto:noreply@envato.com">noreply@envato.com</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h3>FOOD TRUCK</h3>
+					<ul>
+						<li>
+							<h4>Los Angeles</h4>
+							<p>Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+						</li>
+						<li>
+							<p>
+								Monday - Friday
+								<span>06:00 AM - 10:00 PM</span>
+							</p>
+							<p>
+								Saturday - Sunday
+								<span>08:00 AM - 16:00 PM</span>
+							</p>
+						</li>
+						<li>
+							<ul>
+								<li>
+									<a href="tel:+61(0) 383 766 284 ">+61(0) 383 766 284</a>
+								</li>
+								<li>
+									<a href="mailto:noreply@envato.com">noreply@envato.com</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<h3>CAFE</h3>
+					<ul>
+						<li>
+							<h4>New York</h4>
+							<p></p>
+						</li>
+						<li>
+							<p>
+								Monday - Friday
+								<span>06:00 AM - 10:00 PM</span>
+							</p>
+							<p>
+								Saturday - Sunday
+								<span>08:00 AM - 16:00 PM</span>
+							</p>
+						</li>
+						<li>
+							<ul>
+								<li>
+									<a href="tel:+61(0) 383 766 284 ">+61(0) 383 766 284</a>
+								</li>
+								<li>
+									<a href="mailto:noreply@envato.com">noreply@envato.com</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<button type="button">
+						Our Locations
+						<img src="./img/arrow-btn.svg" alt="стрелка" width="4,43" />
+					</button>
+				</li>
+				<li>
+					<button type="button">
+						Franchise
+						<img src="./img/arrow-btn.svg" alt="стрелка" width="4,43" />
+					</button>
+				</li>
+			</ul>
+		</section>
+		<!-- ================ /INFO  ================ -->
+
+		<!-- ================ FOOTER ================ -->
+		<footer>
+			<h2>
+				homemade ice cream made
+				<span>with passion</span>
+			</h2>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="./img/icon-git.svg" alt="Git" width="34" />
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./img/icon-telegram.svg" alt="Telegram" width="34" />
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./img/icon-fb.svg" alt="Facebook" width="34" />
+					</a>
+				</li>
+			</ul>
+			<p>
+				Feel free to contact
+				<a href="tel:+61 (0) 383 766 284">+61 (0) 383 766 284</a>
+			</p>
+			<p>
+				<span>&copy;</span>
+				2019 - IceCream. All Rights Reserved.
+			</p>
+		</footer>
+		<!-- ================ /FOOTER  ================ -->
+	</body>
 </html>
